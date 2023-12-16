@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello world
-        run: echo "Hello world"
+        run: echo "Hello world!"
   goodbye:
     runs-on: ubuntu-latest
     steps:
       - name: Goodbye world
-        run: echo "Goodbye world"
+        run: echo "Goodbye world!"
     
