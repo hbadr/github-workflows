@@ -14,6 +14,8 @@ jobs:
       - name: Log context
         run: |
           echo "GITHUB_WORKFLOW: $GITHUB_WORKFLOW"
-          echo "GITHUB_RUN_ID: $GITHUB_Branch"
+          echo "GITHUB_RUN_ID: $GITHUB_RUN_ID"
+          echo "BRANCH_NAME: ${{ github.ref }}"
+          
   
     
